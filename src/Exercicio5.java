@@ -35,7 +35,7 @@ public class Exercicio5 {
         // SÁIDA
         System.out.printf("Valor a ser pago: R$%.2f%n", valorASerPago);
 
-        // FECHAMENTO DO ALGORÍTMO
+        // FECHAMENTO DO ALGORITMO
         sc.close();
 
     }
