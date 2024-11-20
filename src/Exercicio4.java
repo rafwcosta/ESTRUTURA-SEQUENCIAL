@@ -11,7 +11,7 @@ public class Exercicio4 {
         int numeroDoFuncionario, horasTrabalhadas;
         double valorQueRecebePorHora, salarioDoFuncionario;
 
-        // Entrada dos dados
+        // Entrada
         System.out.print("Número do funcionário: ");
         numeroDoFuncionario = sc.nextInt();
         System.out.print("Horas trabalhadas: ");
@@ -19,10 +19,10 @@ public class Exercicio4 {
         System.out.print("Valor que recebe por hora: ");
         valorQueRecebePorHora = sc.nextDouble();
 
-        // Processamento dos dados
+        // Processamento
         salarioDoFuncionario = horasTrabalhadas * valorQueRecebePorHora;
 
-        // Saída dos dados
+        // Saída
         System.out.println();
         System.out.println("Número do funionário: " + numeroDoFuncionario);
         System.out.printf("Salário: R$%.2f%n", salarioDoFuncionario);
